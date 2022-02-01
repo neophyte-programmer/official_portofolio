@@ -335,8 +335,28 @@ img {
   font-size: var(--smaller-font-size);
   transform: rotate(-90deg);
 }
-/*=============== BUTTONS ===============*/
 
+/*=============== BUTTONS ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .4s;
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+  color: var(--body-color);
+}
+
+.button--ghost {
+  background-color: transparent;
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
+}
 
 /*=============== ABOUT ===============*/
 
