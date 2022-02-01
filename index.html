@@ -1,118 +1,161 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="/assets/css/styles.css">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
-        <title> Nutifafa | Portfolio </title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Nutifafa</a>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
 
-                <div class="nav__menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class='bx bx-home-alt'></i> 
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class='bx bx-user' ></i>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class='bx bx-book' ></i>
-                            </a>
-                        </li> 
-                        <li class="nav__item">
-                            <a href="#work" class="nav__link">
-                                <i class='bx bx-briefcase' ></i>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class='bx bx-message-square-dots' ></i>
-                            </a>
-                        </li>
-                    </ul>
+    <title> Nutifafa | Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Nutifafa</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- Theme Change Button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">
+                        Hello, I'm
+                    </span>
+                    <h1 class="home__name">
+                        Nutifafa Afi Attor
+                    </h1>
+                    <h3 class="home__education">
+                        Software Developer
+                    </h3>
+
+                    <div class="home__buttons">
+                        <a download="" href="/assets/pdf/My_Resume.pdf" class="button button--ghost">
+                            Download Resume
+                        </a>
+                        <a href="#about" class="button">About Me</a>
+                    </div>
                 </div>
 
+                <div class="home__handle">
+                    <img src="/assets/img/me5.png" alt="" class="home__img">
+                </div>
 
-                <!-- Theme Change Button -->
-                <i class='bx bx-moon change-theme' id="theme-button" ></i>
-            </nav>
-        </header>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/neophyteprogrammer/" class="home__social-link">
+                        <i class='bx bxl-linkedin' ></i>
+                    </a>
+                    <a href="https://github.com/neophyte-programmer" class="home__social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                    <a href="https://twitter.com/Nutifafa18" class="home__social-link">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                </div>
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-                
-            </section>
-            
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
-                
-            </section>
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon' ></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
 
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                
-            </section>
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
 
-            <!--=============== SERVICES ===============-->
-            <section class="services section">
-                
-            </section>
+        </section>
 
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                
-            </section>
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
 
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
-                
-            </section>
+        </section>
 
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                
-            </section>
-        </main>
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-            
-        </footer>
+        </section>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="/assets/js/scrollreveal.min.js"></script>
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="/assets/js/swiper-bundle.min.js"></script>
+        </section>
 
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src="/assets/js/mixitup.min.js"></script>
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
 
-        <!--=============== MAIN JS ===============-->
-        <script src="/assets/js/main.js"></script>
-    </body>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="/assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="/assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/main.js"></script>
+</body>
+
 </html>
