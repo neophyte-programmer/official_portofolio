@@ -13,12 +13,12 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 250;
+  --first-hue: 150;
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 61%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -359,7 +359,58 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about__container {
+  row-gap: 2.5rem;
+}
 
+.about__handle {
+  background: linear-gradient(180deg,
+              hsla(var(--first-hue), var(--sat), var(--lig), 1),
+              hsla(var(--first-hue), var(--sat), var(--lig), .2)
+            );
+  border-radius: 5rem;
+}
+
+.about__img {
+  /* width: 220px; */
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  margin-bottom: 2rem;
+}
+
+.about__box {
+  background-color: var(--container-color);
+  border-radius: .75rem;
+  padding: .75rem .5rem;
+}
+
+.about__icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-bottom: .5rem;
+}
+
+.about__title {
+  font-size: var(--small-font-size);
+}
+
+.about__subtitle {
+  font-size: var(--tiny-font-size);
+}
+
+.about__description {
+  margin-bottom: 2rem;
+}
 
 /*=============== SKILLS ===============*/
 
