@@ -13,7 +13,7 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 150;
+  --first-hue: 620;
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
@@ -415,8 +415,56 @@ img {
 }
 
 /*=============== SKILLS ===============*/
+.skills__container {
+  row-gap: 2rem;
+  padding-top: 1rem;
+}
 
+.skills__content {
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+}
 
+.skills__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.skills__group {
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
+
+.skills__data {
+  display: flex;
+  column-gap: .5rem;
+}
+
+.skills .skills__data i {
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 1rem;
+}
+
+.skills__level {
+  font-size: var(--tiny-font-size);
+}
 /*=============== SERVICES ===============*/
 
 
