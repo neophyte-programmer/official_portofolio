@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: ZCOOL XiaoWei
-- Font Author: Copyright 2018 The ZCOOL XiaoWei Project Authors (https://www.github.com/googlefonts/xiaowei)
-- Font Source: http://fonts.gstatic.com/s/zcoolxiaowei/v8/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
