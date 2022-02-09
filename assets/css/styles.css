@@ -1074,3 +1074,120 @@ body.light-theme {
 }
 
 /* For large devices */
+@media screen and (min-width: 992px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    padding: 6.5rem 0 1rem;
+  }
+
+  .section__title {
+    margin-bottom: 3.5rem;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .home__handle {
+    width: 290px;
+    height: 400px; 
+  }
+
+  .home__img {
+    width: 220px;
+  }
+
+  .home__social-link {
+    padding: .4rem;
+    font-size: 1.25rem;
+  }
+
+  .home__social::after {
+    transform: rotate(90deg) translate(16px, 0);
+  }
+
+  .home__scroll-icon {
+    font-size: 2rem;
+  }
+
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+  }
+
+  .about__img {
+    width: 450px;
+  }
+
+  .about__data {
+    text-align: initial;
+  }
+
+  .about__info {
+    justify-content: initial;
+  }
+
+  .about__box {
+    text-align: center;
+    padding: 1rem 1.25rem;
+  }
+
+  .about__description {
+    padding: 0 4rem 0 0;
+    margin-bottom: 2.5rem;
+  }
+
+  .skills__container {
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+  }
+
+  .services__container {
+    grid-template-columns: repeat(3, 193px);
+    column-gap: 3rem;
+  }
+
+  .services__card {
+    padding: 5rem 2rem 1.5rem; 
+  }
+
+  .work__container {
+    gap: 3rem;
+  }
+
+  .work__card {
+    padding: 1.25rem;
+  }
+
+  .work__img {
+    margin-bottom: 1rem;
+  }
+
+  .work__title {
+    margin-bottom: .5rem;
+  }
+
+  .testimonial__container {
+    width: 750px;
+  }
+
+  .testimonial__card {
+    padding: 1rem 2rem;
+  }
+
+  .contact__container {
+    column-gap: 6rem;
+  }
+
+  .footer__social-link {
+    font-size: 1.25rem;
+    padding: .4rem;
+    border-radius: .5rem;
+  }
+
+}
