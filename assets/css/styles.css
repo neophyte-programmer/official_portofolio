@@ -587,7 +587,7 @@ body.light-theme {
   place-items: center;
   visibility: hidden;
   opacity: 0;
-  transition: 4s;
+  transition: .4s;
   z-index: var(--z-modal);
 }
 
