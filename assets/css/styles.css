@@ -856,7 +856,20 @@ img {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: .5rem;
+  border-radius: .5rem;
+  background-color: hsl(var(--second-hue), 8%, 32%);
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--second-hue), 8%, 20%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--second-hue), 8%, 16%);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
