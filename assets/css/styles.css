@@ -1061,6 +1061,16 @@ body.light-theme {
 
 }
 
+@media screen and (min-width: 767px) {
+  .work__container {
+    grid-template-columns: repeat(2, max-content);
+  }
 
+  .contact__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 3rem;
+  }
+}
 
 /* For large devices */
