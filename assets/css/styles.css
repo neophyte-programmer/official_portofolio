@@ -389,13 +389,13 @@ body.light-theme {
   color: #fff;
 }
 
-.home__social::after {
+/* .home__social::after {
   content: "";
   width: 32px;
   height: 2px;
   background-color: var(--first-color);
   transform: rotate(90deg) translate(16px, 3px);
-}
+} */
 
 .home__scroll {
   color: var(--first-color);
@@ -1109,6 +1109,7 @@ body.light-theme {
 
   .nav__text {
     position: relative;
+    margin-left: .5rem;
   }
 
   .home__handle {
