@@ -735,6 +735,10 @@ body.light-theme {
   margin-bottom: 1rem;
 }
 
+.user__img {
+  height: 60px;
+}
+
 .testimonial__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
