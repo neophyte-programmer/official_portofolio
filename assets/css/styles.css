@@ -943,7 +943,45 @@ body.light-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .nav__menu {
+    padding: 1rem 1.5rem;
+  }
 
+  .home__buttons {
+    flex-direction: column;
+  }
+
+  .home__handle {
+    width: 150px;
+    height: 253px; 
+  }
+
+  .home__img {
+    width: 130px;
+  }
+
+  .about__info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills__box {
+    column-gap: .8rem;
+  }
+
+  .skills__name{
+    font-size: var(--small-font-size);
+  }
+
+  .services__container {
+    grid-template-columns: 145px;
+    justify-content: center;
+  }
+
+  .work__item {
+    font-size: var(--small-font-size);
+  }
+}
 
 /* For medium devices */
 
