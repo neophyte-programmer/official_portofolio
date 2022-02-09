@@ -177,6 +177,10 @@ body.light-theme {
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, .1);
 }
 
+.light-theme .testimonial__container {
+  padding: 1rem;
+}
+
 .light-theme::-webkit-scrollbar {
   background-color: hsl(var(--second-hue), 8%, 66%);
 }
